@@ -1,0 +1,71 @@
+site_name: Learn Python Statistica
+site_url: https://codeyuha.github.io/python-statistica/
+site_author: Yurii H
+theme:
+  name: material
+  favicon: https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png
+  logo: https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png
+  font:
+    text: Roboto
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - header.autohide
+    - content.code.copy
+    - navigation.top
+    - navigation.footer
+repo_name: python-statistica
+repo_url: https://github.com/codeyuha/python-statistica/
+copyright: Copyright &copy; 2025 Coding Yurii H
+nav:
+  - Home: index.md
+  - Сontent: content.md
+  - Contacts: contacts.md
+plugins:
+  - search
+  - tags
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+  - glightbox:
+      auto_caption: true
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+extra:
+  social:
+    - icon: fontawesome/solid/house
+      link: https://github.com/codeyuha/python-statistica.github.io
+    - icon: fontawesome/brands/github
+      link: https://github.com/codeyuha/python-statistica
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:autocadmdav@gmail.com
+
+
